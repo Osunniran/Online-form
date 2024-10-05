@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Online Regristration Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Sign Up</h1>
+        <form>
+            <input type="text" placeholder="Username" id="username" minlength="5" maxlength="15" required><br>
+            <input type="tel" placeholder="Phone Number" id="telephone" minlength="11" required><br>
+            <input type="email" placeholder="Email Address" id="email" required><br>
+            <input type="password" placeholder="Password" id="pswrd" maxlength="15" required><br>
+            <input type="password" placeholder="Confirm Password" id="pswrd2" maxlength="15" required><br>
+            <button onclick="signup()">Submit</button>
+        </form>
+        <div class="error">
+            <p id="invalid6"></p>
+            <p id="invalid"></p>
+            <p id="invalid1"></p>
+            <p id="invalid2"></p>
+            <p id="invalid3"></p>
+            <p id="invalid4"></p>
+            <p id="invalid5"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
