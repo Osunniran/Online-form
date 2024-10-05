@@ -31,6 +31,9 @@ body {
 .container form input:active {
   border: none;
 }
+form p{
+    color: red;
+}
 .container form input::placeholder {
   font-size: 15px;
   color: black;
