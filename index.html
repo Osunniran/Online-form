@@ -13,21 +13,25 @@
     <div class="container">
         <h1 class="heading">Sign Up</h1>
         <form>
-            <input type="text" placeholder="Username" id="username" minlength="5" maxlength="15" required><br>
-            <input type="tel" placeholder="Phone Number" id="telephone" minlength="11" required><br>
-            <input type="email" placeholder="Email Address" id="email" required><br>
-            <input type="password" placeholder="Password" id="pswrd" maxlength="15" required><br>
-            <input type="password" placeholder="Confirm Password" id="pswrd2" maxlength="15" required><br>
-            <button onclick="signup()">Submit</button>
-        </form>
-        <div class="error">
+            <input type="text" placeholder="Username" id="username" minlength="5" maxlength="15" required>
             <p id="invalid6"></p>
+            <br>
+            <input type="tel" placeholder="Phone Number" id="telephone" minlength="11" required>
             <p id="invalid"></p>
             <p id="invalid1"></p>
+            <br>
+            <input type="email" placeholder="Email Address" id="email" required>
             <p id="invalid2"></p>
+            <br>
+            <input type="password" placeholder="Password" id="pswrd" maxlength="15" required><br>
+            <input type="password" placeholder="Confirm Password" id="pswrd2" maxlength="15" required>
             <p id="invalid3"></p>
             <p id="invalid4"></p>
             <p id="invalid5"></p>
+            <br>
+            <button onclick="signup()">Submit</button>
+        </form>
+        <div class="error">
         </div>
     </div>
     <script src="script.js"></script>
